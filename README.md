@@ -1,5 +1,6 @@
 # Intelligent Image Presence Detection using AWS Bedrock
 
+
 Detect whether a reference image exists inside a target document (image) using AI-powered visual reasoning with AWS services.
 
 This project goes beyond traditional OCR by identifying images even if they are:
