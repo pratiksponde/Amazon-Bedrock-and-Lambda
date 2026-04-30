@@ -15,29 +15,30 @@ This project goes beyond traditional OCR by identifying images even if they are:
 
 This solution uses:
 
-Amazon S3 – Store reference and target files
-AWS Lambda – Process and orchestrate logic
-Amazon Bedrock – Perform multimodal AI analysis
+- Amazon S3 – Store reference and target files
+- AWS Lambda – Process and orchestrate logic
+- Amazon Bedrock – Perform multimodal AI analysis
 
 🔄 Flow
+
 User → Upload to S3 → S3 Event → Lambda → Bedrock → Result Store in S3 Bucket (true/false)
 
 ---
 
 # Features
- Detect image presence inside documents
- Supports images and PDFs
- Works with rotated, scaled, or partial matches
- Fully serverless and scalable
- Uses multimodal AI (no traditional CV required)
+- Detect image presence inside documents
+- Supports images and PDFs
+- Works with rotated, scaled, or partial matches
+- Fully serverless and scalable
+- Uses multimodal AI (no traditional CV required)
 
 ---
 
 # Tech Stack
-Node.js (AWS Lambda)
-AWS SDK v3
-Amazon Bedrock (Claude Vision / Multimodal Model)
-Amazon S3
+- Node.js (AWS Lambda)
+- AWS SDK v3
+- Amazon Bedrock (Claude Vision / Multimodal Model)
+- Amazon S3
 
 ---
 
