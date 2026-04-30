@@ -10,6 +10,9 @@ This project goes beyond traditional OCR by identifying images even if they are:
 - Partially visible 
 - Positioned anywhere
 
+📖 **Full article:**  
+https://dev.to/pratik_26/amazon-bedrock-image-analysis-tutorial-with-aws-lambda-4mi9
+
 ---
 
 # 🚀 Architecture
@@ -73,7 +76,7 @@ This project demonstrates how to use multimodal AI to solve problems beyond OCR 
 Cloud & DevOps Engineer  
 
 Article:
-https://dev.to/pratik_26/deploying-amazon-msk-serverless-across-multiple-environments-with-terraform-2i8c
+https://dev.to/pratik_26/amazon-bedrock-image-analysis-tutorial-with-aws-lambda-4mi9
 
 ---
 
