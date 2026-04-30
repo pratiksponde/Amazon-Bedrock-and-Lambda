@@ -68,15 +68,19 @@ This project demonstrates how to use multimodal AI to solve problems beyond OCR 
 ---
 
 # 👨‍💻 Author
-Pratik Ponde
-Cloud & DevOps Engineer
+**Pratik Ponde**  
+Cloud & DevOps Engineer  
 
 Article:
 https://dev.to/pratik_26/deploying-amazon-msk-serverless-across-multiple-environments-with-terraform-2i8c
 
 ---
 
-# 🤝 Contributing
+# ⭐ Support
 
-Feel free to fork, improve, and raise PRs!
+If you found this helpful:
+
+- Star this repository
+- Fork this repository
+- Contribute improvements
 
