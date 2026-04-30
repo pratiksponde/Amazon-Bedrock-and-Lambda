@@ -4,10 +4,10 @@ Detect whether a reference image exists inside a target document (image) using A
 
 This project goes beyond traditional OCR by identifying images even if they are:
 
-Rotated 
-Resized 
-Partially visible 
-Positioned anywhere
+- Rotated 
+- Resized 
+- Partially visible 
+- Positioned anywhere
 
 ---
 
