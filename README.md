@@ -9,7 +9,9 @@ Resized
 Partially visible 
 Positioned anywhere
 
-🚀 Architecture
+---
+
+# 🚀 Architecture
 
 This solution uses:
 
@@ -20,20 +22,27 @@ Amazon Bedrock – Perform multimodal AI analysis
 🔄 Flow
 User → Upload to S3 → S3 Event → Lambda → Bedrock → Result Store in S3 Bucket (true/false)
 
-Features
+---
+
+# Features
  Detect image presence inside documents
  Supports images and PDFs
  Works with rotated, scaled, or partial matches
  Fully serverless and scalable
  Uses multimodal AI (no traditional CV required)
 
-Tech Stack
+---
+
+# Tech Stack
 Node.js (AWS Lambda)
 AWS SDK v3
 Amazon Bedrock (Claude Vision / Multimodal Model)
 Amazon S3
 
-📂 Project Structure
+---
+
+# 📂 Project Structure
+```text
 .
 ├── lambda/
 │   └── index.js
@@ -41,25 +50,32 @@ Amazon S3
 │   ├── reference-image.png
 │   └── target-file.pdf
 ├── README.md
+```
+---
 
-
-Sample Response
+# Sample Response
 {
   "result": "true"
 }
 
-Conclusion
+---
+
+# Conclusion
 
 This project demonstrates how to use multimodal AI to solve problems beyond OCR by enabling visual understanding inside documents.
 
-👨‍💻 Author
+---
+
+# 👨‍💻 Author
 Pratik Ponde
 Cloud & DevOps Engineer
 
 Article:
 https://dev.to/pratik_26/deploying-amazon-msk-serverless-across-multiple-environments-with-terraform-2i8c
 
-🤝 Contributing
+---
+
+# 🤝 Contributing
 
 Feel free to fork, improve, and raise PRs!
 
